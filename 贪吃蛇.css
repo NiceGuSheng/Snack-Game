@@ -1,0 +1,90 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.game-body{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FFB;
+}
+.game-body .game-title{
+	width: 1000px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 50px;
+	font-weight: 700;
+	background-color: #fff;
+}
+.game-body .game-nav ul{
+	padding: 0 97px;
+	width: 806px;
+	height: 50px;
+	border: 1px solid black; 
+}
+.game-body .game-nav li{
+	float: left;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-right: 1px solid black;
+}
+.game-body .game-nav li:hover{
+	cursor: pointer;
+}
+.game-body .game-nav .sd{
+	border-left: 1px solid black;
+}
+.game-body .game-nav .new-game{
+	background-color: orange;
+}
+.game-body .game-main{
+	width: 1000px;
+	height: 500px;
+	border: 1px solid black;
+	border-top: 0px;
+}
+.game-body .game-main .box .box_player{
+	height: 26px;
+	width: 26px;
+	background-color: blue;
+	display: inline-block;
+	line-height: 35px;
+}
+.game-body .game-main .box .box_food{
+	height: 26px;
+	width: 26px;
+	background-color: green;
+	display: inline-block;
+}
+.game-body .game-main .box span{
+	float: right;
+}
+.game-body .game-main ul{
+	width: 780px;
+	height: 416px;
+	border-right: 1px solid #FF0;
+	border-bottom: 1px solid #FF0;
+	background-color: #fff;
+	margin: 0px 110px;
+}
+.game-body .game-main .box{
+	height: 35px;
+}
+.game-body .game-main ul li{
+	float: left;
+	width: 25px;
+	height: 25px;
+	border-left: 1px solid #FF0;
+	border-top: 1px solid #FF0;
+}
+
+.game-body .game-main .snake{
+	background-color: blue;
+}
+.game-body .game-main .food{
+	background-color: green;
+}
